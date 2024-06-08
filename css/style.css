@@ -192,6 +192,8 @@ footer{
     padding-inline: 10px;
 
     display: flex;
+    align-content: center;
+    flex-direction: column;
     flex-wrap: wrap;
     gap: 10px;
     /* justify-content: center; */
@@ -199,6 +201,10 @@ footer{
 
 footer p{
     width: fit-content;
+}
+
+.footer-contato{
+    text-align: center;
 }
 
 .footer-contato a{
