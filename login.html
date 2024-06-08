@@ -15,7 +15,9 @@
 <body>
     <header>
         <div class="logo">
-            <img src="img/logo.jpeg" alt="">
+            <a href="index.html">
+                <img src="img/logo.jpeg" alt="">
+            </a>
         </div>
         <div class="logo-menu-responsivo">
             <i class="fa-solid fa-bars" id="logo-menu-responsivo-abrir"></i>
@@ -31,7 +33,30 @@
         </div>
     </header>
     <main>
+        <div class="container-login">
+            <div class="container-img-login"> 
+            </div>
+            <div class="container-input-login">
+                <h1>Login</h1>
+                <div class="icones-redes-sociais">
 
+                </div>
+                <div class="input-login">
+                    <div class="input-elemento">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" class="input-email">
+                    </div>
+                    <div class="input-elemento">
+                        <label for="senha">Senha</label>
+                        <input type="password" id="senha" class="input-senha">
+                    </div>
+                    <div class="input-elemento">
+                        <input type="button" class="input-btn"
+                        onClick="logar()" value="Entrar">
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <p>Copyright &#169; 2024 Educahost. All Rights Reserved</p>
@@ -43,4 +68,5 @@
         </div>
     </footer>
 </body>
+<script src="js/login.js"></script>
 </html>
