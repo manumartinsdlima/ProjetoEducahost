@@ -2,23 +2,83 @@ main{
     height: 100vh;
 
     display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.formulario-contato{
+form{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.formulario-container{
     height: fit-content;
     min-height: 400px;
     max-height: 500px;
-    width: 50%;
+    width: fit-content;
 
     border-radius: 24px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
+    margin-inline: 20px;
+    padding: 40px;
 
     background-color: #a9e94d;
 
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
     align-self: center;
+}
+
+.formulario-input{
+    padding: 20px;
+
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.formulario-input label{
+    font-weight: bold;
+}
+
+.formulario-input input{
+    padding: 5px;
+
+    border: none;
+    border-radius: 6px;
+    outline: none;
+}
+
+.formulario-input textarea[id="mensagem"]{
+    height: 100px;
+    max-height: 100px;
+
+    padding: 5px;
+    object-fit: contain;
+
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    outline: none;
+}
+
+.formulario-input input[type="button"]{
+    padding-block: 5px;
+    padding-inline: 15px;
+    
+    background-color: #000;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.formulario-input input[type="button"]:hover{
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
 }

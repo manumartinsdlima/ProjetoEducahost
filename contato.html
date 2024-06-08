@@ -15,7 +15,9 @@
 <body>
     <header>
         <div class="logo">
-            <img src="img/logo.jpeg" alt="">
+            <a href="index.html">
+                <img src="img/logo.jpeg" alt="">
+            </a>
         </div>
         <div class="logo-menu-responsivo">
             <i class="fa-solid fa-bars" id="logo-menu-responsivo-abrir"></i>
@@ -31,17 +33,20 @@
         </div>
     </header>
     <main>
-        <div class="formulario-contato">
-            <form action="#" method="post">
+        <form action="#" method="post">
+            <div class="formulario-container">
                 <h1>Entre em contato com a nossa equipe</h1>
-                <div>
-                    <input type="text" name="nome" id="nome" placeholder="Nome">
-                    <input type="text" name="nome" id="nome" placeholder="E-mail">
-                    <input type="text" name="nome" id="nome" placeholder="Mensagem">
+                <div class="formulario-input">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" >
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" >
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem"></textarea>
                     <input type="button" value="Enviar">
                 </div>
-            </form>
-        </div>
+            </div>
+        </form>
     </main>
     <footer>
         <p>Copyright &#169; 2024 Educahost. All Rights Reserved</p>

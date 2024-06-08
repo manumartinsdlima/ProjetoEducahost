@@ -118,7 +118,7 @@ header{
     margin-right: 10px;
 }
 
-@media(max-width: 850px){   
+@media(max-width: 875px){   
     .logo-menu-responsivo{
         display: block;
 
@@ -187,14 +187,21 @@ footer{
     height: fit-content;
     width: 100vw;     
     
-    padding-bottom: 20px;
+    padding-block: 10px;
+    padding-inline: 10px;
 
     display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
     justify-content: center;
 }
 
 footer p{
     width: fit-content;
+}
+
+.footer-contato{
+    margin-right: 10px;
 }
 
 .footer-contato a{
