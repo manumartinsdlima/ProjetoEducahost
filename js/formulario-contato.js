@@ -6,6 +6,6 @@ function cadastrarFormulario(){
     if(nome == "" || email == "" || mensagem == ""){
         alert("Os campos não podem estar vazios para poder enviar o formulário!")
     } else{
-        console.log(nome, email, mensagem)
+        alert("Formulário enviado com sucesso! Nome: " + nome + ", email: " + email + ", mensagem: " + mensagem)
     }
 }
