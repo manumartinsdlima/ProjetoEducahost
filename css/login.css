@@ -36,9 +36,6 @@ main{
 
 .container-input-login, .container-input-cadastro{
     min-height: fit-content;
-    min-width: 340px;
-
-    width: 100%;
 
     background-color: #f1f0f0;
     border-radius: 0 12px 12px 0;
@@ -97,6 +94,10 @@ main{
     justify-content: space-evenly;
 }
 
+.container-input-cadastro .input-login{
+    max-width: 360px;
+}
+
 .input-elemento{
     display: flex;
     flex-direction: column;
@@ -142,6 +143,7 @@ main{
 
 @media (max-width: 880px){
     .container-login{
+        width: 80vw;
         max-width: 400px;
     }
 
