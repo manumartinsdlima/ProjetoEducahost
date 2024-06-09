@@ -137,7 +137,7 @@ header{
     
         background-color: #fff;
         font-size: 24px;
-        clip-path: circle(100px at 100% -25%);
+        clip-path: circle(0px at 90% -15%);
         transition: ease-out 0.5s;
         pointer-events: none;
     
