@@ -6,8 +6,10 @@ main{
 }
 
 .container-login{
-    height: calc(100vh - 200px);
-    width: 80vw;
+    min-height: 100%;
+
+    height: fit-content;
+    width: 800px;
 
     margin-left: auto;
     margin-right: auto;
@@ -22,7 +24,7 @@ main{
 
 .container-img-login{
     height: 100%;
-    width: 100%;
+    width: 500px;
 
     background-image: url(../img/img-login.svg);
     background-position: center;
@@ -32,10 +34,10 @@ main{
     flex: 1;
 }
 
-.container-input-login{
+.container-input-login, .container-input-cadastro{
+    min-height: fit-content;
     min-width: 340px;
 
-    height: 100%;
     width: 100%;
 
     background-color: #f1f0f0;
@@ -46,10 +48,42 @@ main{
     flex-direction: column;
 }
 
-.container-input-login h1{
+.container-input-cadastro{
+    display: none;
+}
+
+.container-input-cadastro.ativo{
+    display: flex;
+}
+
+.container-input-login.inativo{
+    display: none;
+}
+
+.container-input-login h1, .container-input-cadastro h1{
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+}
+
+.icones-redes-sociais{
+    margin-top: 30px;
+
+    font-size: 25px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.icones-redes-sociais i{
+    transition: color 0.3s;
+}
+
+.icones-redes-sociais i:hover{
+    color: #a9e94d;
+    cursor: pointer;
 }
 
 .input-login{
@@ -59,6 +93,7 @@ main{
 
     display: flex;
     flex-direction: column;
+    gap: 5px;
     justify-content: space-evenly;
 }
 
@@ -67,7 +102,11 @@ main{
     flex-direction: column;
 }
 
-.input-email, .input-senha, .input-btn{
+.container-input-cadastro .input-elemento.input{
+    width: 100%;
+}
+
+.input, .input-btn{
     margin-top: 5px;
     padding: 5px;
 
@@ -78,15 +117,27 @@ main{
 }
 
 .input-btn{
+    padding: 10px;
+
     background-color: #000;
     color: #fff;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .input-btn:hover{
     background-color: #fff;
     color: #000;
+}
+
+.input-btn.btn-cadastro{
+    background-color: #f1f0f0;
+    color: #000;
+    text-decoration: underline;
+}
+
+.input-btn.btn-cadastro:hover{
+    color: #a9e94d;
 }
 
 @media (max-width: 880px){
@@ -98,7 +149,7 @@ main{
         display: none;
     }
 
-    .container-input-login{
+    .container-input-login, .container-input-cadastro{
         border-radius: 12px;
     }
 }

@@ -11,6 +11,8 @@ body{
     height: 100vh;
     width: 100vw;
     max-width: 100vw;
+
+    background-color: #a9e94d;
     
     display: flex;
     flex-direction: column;
@@ -32,6 +34,7 @@ header{
     max-width: 300px;
 
     left: 0px;
+    margin-left: 10px;
 
     display: flex;
     justify-content: flex-start;
@@ -134,7 +137,7 @@ header{
     
         background-color: #fff;
         font-size: 24px;
-        clip-path: circle(100px at 90% -15%);
+        clip-path: circle(100px at 100% -25%);
         transition: ease-out 0.5s;
         pointer-events: none;
     
@@ -188,6 +191,7 @@ main{
 footer{
     height: fit-content;     
 
+    margin-top: 20px;
     padding-block: 10px;
     padding-inline: 10px;
 
