@@ -43,7 +43,7 @@ function logar(){
     alert("É preciso preencher os campos para logar!")
    } else if (email_login == email && senha_login == senha){
     alert("Login efetuado com sucesso!")
-    window.location.href = "../index.html"
+    window.location.href = "ProjetoEducahost/index.html"
    } else {
     alert("Usuário inválido!")
    }
