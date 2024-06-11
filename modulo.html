@@ -33,7 +33,71 @@
         </div>
     </header>
     <main>
-
+        <div class="container-modulo">
+            <button class="btn-modulo-passar esquerda" onclick="passarEsquerda()"><i class="fa-solid fa-chevron-left"></i></i></button>
+            <button class="btn-modulo-passar direita" onclick="passarDireita()"><i class="fa-solid fa-chevron-right"></i></button>
+            <div class="modulo-responsivo">
+                <div class="modulo">
+                    <h1>Iniciante</h1>
+                    <div class="img-modulo" id="img-modulo-iniciante"></div>
+                    <button class="btn-modulo-ir iniciante" onclick="abrirContainerAtividade()">Iniciar</button>
+                </div>
+            </div>
+            <div class="modulo-responsivo">
+                <div class="modulo">
+                    <h1>Intermediário</h1>
+                    <div class="img-modulo" id="img-modulo-intermediario"></div>
+                    <button class="btn-modulo-ir intermediario" onclick="abrirContainerAtividade()">Iniciar</button>
+                </div>
+            </div>
+            <div class="modulo-responsivo">
+                <div class="modulo">
+                    <h1>Avançado</h1>
+                    <div class="img-modulo" id="img-modulo-avancado"></div>
+                    <button class="btn-modulo-ir avancado" onclick="abrirContainerAtividade()">Iniciar</button>
+                </div>
+            </div>
+        </div>
+        <div class="container-atividade">
+            <button class="btn-atividade-voltar" onclick="fecharContainerAtividade()">
+                <i class="fa-solid fa-arrow-left-long"></i>
+            </button>
+            <h1>Atividades</h1>
+            <div class="atividade">
+                <div class="atividade-elemento">
+                    <div class="atividade-titulo">
+                        <h2>Atividade 1</h2>
+                        <button class="btn-atividade-mais" onclick="irJogo()">
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="atividade-elemento">
+                    <div class="atividade-titulo">
+                        <h2>Atividade 2</h2>
+                        <button class="btn-atividade-mais">
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="atividade-elemento">
+                    <div class="atividade-titulo">
+                        <h2>Atividade 3</h2>
+                        <button class="btn-atividade-mais">
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="atividade-elemento">
+                    <div class="atividade-titulo">
+                        <h2>Atividade 4</h2>
+                        <button class="btn-atividade-mais">
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <p>Copyright &#169; 2024 Educahost. All Rights Reserved</p>
@@ -44,5 +108,6 @@
             </a>
         </div>
     </footer>
+    <script src="js/modulo.js"></script>
 </body>
 </html>

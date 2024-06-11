@@ -127,7 +127,7 @@ main{
 }
 
 .input-btn:hover{
-    background-color: #fff;
+    background-color: #7d7df7;
     color: #000;
 }
 
@@ -138,7 +138,7 @@ main{
 }
 
 .input-btn.btn-cadastro:hover{
-    color: #a9e94d;
+    color: #7d7df7;
 }
 
 @media (max-width: 880px){
