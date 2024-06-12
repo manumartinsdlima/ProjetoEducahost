@@ -9,3 +9,9 @@ logo.addEventListener("click", () => (
 ))
 
 logo.addEventListener("click", () => logo.classList.toggle("fechar"))
+
+document.addEventListener("scroll", () => {
+    menu.classList.remove("ativo"),
+    logo.classList.remove("fechar")
+})
+
