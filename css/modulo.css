@@ -19,6 +19,12 @@ main{
     align-items: center;
 }
 
+.container-modulo{
+    padding: 0 20px 0 20px;
+
+    gap: 20px;
+}
+
 .container-atividade{
     display: none;
 }
@@ -61,17 +67,17 @@ main{
 .modulo{
     height: 100%;
     width: 300px;
-
+    
     margin: auto auto;
     padding: 10px 0;
-
+    
     background-color: #fff;
     border-radius: 12px;
-
+    
     display: flex;
     flex-direction: column;
-}
-
+ }
+    
 .modulo h1{
     text-align: center;
 }
@@ -198,6 +204,10 @@ main{
 
 
 @media (max-width: 770px){
+    .container-modulo{
+        gap: 0;
+    }
+
     .modulo-responsivo{
         min-width: 100%;
 

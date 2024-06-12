@@ -1,16 +1,24 @@
 const logoMenuIdioma = document.querySelector(".logo-menu-idioma")
+const btnMenuIdiomaAbrir = document.querySelector(".btn-menu-idioma.abrir")
+const btnMenuIdiomaFechar = document.querySelector(".btn-menu-idioma.fechar")
 const menuIdioma = document.querySelector(".menu-idioma")
-const logoMenu = document.querySelector(".logo-menu-responsivo")
 
+let posicaoLogoMenu = logoMenuIdioma.getBoundingClientRect()
+
+window.addEventListener("resize", () => {
+    menuIdioma.style.top = posicaoLogoMenu.top
+})
 
 function abrirMenuIdioma(){
-    logoMenuIdioma.style.display = "none"
-    menuIdioma.style.display = "flex"
+    btnMenuIdiomaAbrir.style.display = "none"
+    btnMenuIdiomaFechar.style.display = "flex"
+    menuIdioma.classList.add("ativo")
 }
 
 function fecharMenuIdioma(){
-    menuIdioma.style.display = "none"
-    logoMenuIdioma.style.display = "flex"
+    btnMenuIdiomaFechar.style.display = "none"
+    btnMenuIdiomaAbrir.style.display = "flex"
+    menuIdioma.classList.remove("ativo")
 }
 
 

@@ -54,7 +54,7 @@ header{
 }
 
 .container-idioma{
-    margin: auto auto;
+    margin: auto 10px;
     padding: 0 10px 0 10px;
 }
 
@@ -87,13 +87,36 @@ header{
     cursor: pointer;
 }
 
+.btn-menu-idioma i{
+    width: 100%;
+
+    margin: auto auto;
+}
+
 .btn-menu-idioma:hover i{
     color: #a9e94d;
 }
 
-.menu-idioma{
+.btn-menu-idioma.fechar{
     display: none;
+}
+
+.menu-idioma{
+    position: absolute;
+
+    padding: 5px;
+
+    background-color: #dfdede;
+    border-radius: 0 6px 6px;
+    clip-path: inset(0 0 100% 0);
+    transition: 0.3s;
+    z-index: 3;
+
     flex-direction: column;
+}
+
+.menu-idioma.ativo{
+    clip-path: inset(0 0 0 0);
 }
 
 .menu-idioma p{
