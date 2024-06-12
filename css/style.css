@@ -70,6 +70,11 @@ header{
     justify-content: center;
 }
 
+.logo-menu-idioma .fa-globe{
+    margin: 0 -10px 0 0;
+    z-index: 1;
+}
+
 .img-menu-idioma, .btn-menu-idioma{
     height: 18px;
     width: 28px;
@@ -82,15 +87,23 @@ header{
 }
 
 .btn-menu-idioma{
+    width: 40px;
+
     border: none;
     border-radius: 0 3px 3px 0;
     cursor: pointer;
+
+    display: flex;
 }
 
 .btn-menu-idioma i{
-    width: 100%;
+    height: 100%;
 
-    margin: auto auto;
+    margin: 2px 0 0 18px;
+}
+
+.btn-menu-idioma.fechar i{
+    margin: 4px 0 0 18px;
 }
 
 .btn-menu-idioma:hover i{
