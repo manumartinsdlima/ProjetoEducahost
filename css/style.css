@@ -22,7 +22,7 @@ body{
 }
 
 header{
-    height: fit-content;
+    height: 100px;
     width: 100vw;
 
     display: flex;
@@ -47,6 +47,76 @@ header{
 
     left: 0px;
     object-fit: contain;
+}
+
+.img-logo-abreviada{
+    display: none;
+}
+
+.container-idioma{
+    margin: auto auto;
+    padding: 0 10px 0 10px;
+}
+
+.logo-menu-idioma{
+    width: fit-content;
+
+    align-content: center;
+
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img-menu-idioma, .btn-menu-idioma{
+    height: 18px;
+    width: 28px;
+}
+
+.img-menu-idioma{
+    border-radius: 3px 0 0 3px;
+
+    object-fit: contain;
+}
+
+.btn-menu-idioma{
+    border: none;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+}
+
+.btn-menu-idioma:hover i{
+    color: #a9e94d;
+}
+
+.menu-idioma{
+    display: none;
+    flex-direction: column;
+}
+
+.menu-idioma p{
+    margin: 0 0 5px 0;
+}
+
+.menu-idioma .btn-menu-idioma{
+    width: 100%;
+
+    margin: 5px 0 0 0;
+}
+
+.idioma{
+    display: flex;
+    gap: 5px;
+}
+
+.idioma{
+    text-decoration: none;
+}
+
+.idioma:hover{
+    background-color: #f0f0f0;
 }
 
 .logo-menu-responsivo{
@@ -95,7 +165,7 @@ header{
 .menu{
     height: 100px;
 
-    margin-inline: 20px;
+    margin: 0 20px 0 0;
 
     font-size: 16px;
 
@@ -121,7 +191,21 @@ header{
     margin-right: 10px;
 }
 
-@media(max-width: 875px){   
+@media(max-width: 875px){  
+
+    .img-logo{
+        display: none;
+    }
+
+    .img-logo-abreviada{
+        max-height: 100px;
+        max-width: 200px;
+
+        object-fit: contain;
+
+        display: flex;
+    }
+    
     .logo-menu-responsivo{
         display: block;
 

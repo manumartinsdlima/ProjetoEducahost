@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/login.css">
 
     <script defer src="js/menu-responsivo.js"></script>
+    <script defer src="js/menu-idioma.js"></script>
 
     <title>Educahost | Login</title>
 </head>
@@ -18,6 +19,24 @@
             <a href="index.html">
                 <img src="img/logo.png" alt="">
             </a>
+        </div>
+        <div class="container-idioma">
+            <div class="logo-menu-idioma">
+                <i class="fa-solid fa-globe"></i>
+                <button class="btn-menu-idioma" onclick="abrirMenuIdioma()"><i class="fa-solid fa-chevron-down"></i></button>
+            </div>
+            <div class="menu-idioma">
+                <p>Escolha o idioma:</p>
+                <a href="" class="idioma pt-br">
+                    <img src="img/logo-menu-idioma-brasil.png" alt="" class="img-menu-idioma">
+                    Português
+                </a>
+                <a href="" class="idioma espanhol">
+                    <img src="img/logo-menu-idioma-espanha.webp" alt="" class="img-menu-idioma">
+                    Espanhol
+                </a>
+                <button class="btn-menu-idioma" onclick="fecharMenuIdioma()"><i class="fa-solid fa-chevron-up"></i></button>
+            </div>
         </div>
         <div class="logo-menu-responsivo">
             <i class="fa-solid fa-bars" id="logo-menu-responsivo-abrir"></i>
