@@ -51,8 +51,11 @@ form{
 }
 
 .formulario-input textarea[id="mensagem"]{
+    min-height: 100px;
+    min-width: 100%;
     height: 100px;
     max-height: 100px;
+    max-width: 500px;
 
     padding: 5px;
     object-fit: contain;
