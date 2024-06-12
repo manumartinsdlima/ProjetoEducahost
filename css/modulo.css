@@ -52,10 +52,18 @@ main{
     border-radius: 0 12px 12px 0;
 }
 
+.btn-modulo-passar.esquerda:hover{
+    transform: translate(-10px)
+}
+
 .btn-modulo-passar.direita{
     right: 0; 
     
     border-radius: 12px 0 0 12px;
+}
+
+.btn-modulo-passar.direita:hover{
+    transform: translate(10px)
 }
 
 .modulo-responsivo{
@@ -150,6 +158,7 @@ main{
 
 .btn-atividade-voltar i:hover{
     color: #7d7df7;
+    transform: translate(-10px);
 }
 
 
@@ -185,10 +194,11 @@ main{
     align-content: center;
 }
 
-.btn-atividade-mais{
+.btn-atividade-ir{
     background-color: #00000000;
     border: none;
 }
+
 
 .atividade-titulo i{
     cursor: pointer;
@@ -200,6 +210,7 @@ main{
 
 .atividade-titulo i:hover{
     color: #a9e94d;
+    transform: translate(5px);
 }
 
 
