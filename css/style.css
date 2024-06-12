@@ -209,6 +209,7 @@ header{
     flex-direction: row;
     align-items: center;
     gap: 50px;
+    justify-content: flex-start;
 }
 
 .menu a{
@@ -251,10 +252,11 @@ header{
     .menu{
         position: absolute;
 
-        height: 100vh;
+        height: 150%;
         width: 100vw;
 
-        margin: 0px;
+        margin: 0;
+        padding: 150px 0 0 0;
     
         background-color: #fff;
         font-size: 24px;
@@ -266,7 +268,7 @@ header{
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         gap: 30px;
     }
 
