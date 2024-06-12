@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sobre.css">
+
+    <script defer src="js/menu-responsivo.js"></script>
+    <script defer src="js/menu-idioma.js"></script>
+
+    <title>Educahost | Sobre Nós</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo.png" alt="" class="img-logo">
+                <img src="img/logo-abreviada.png" class="img-logo-abreviada" alt="">
+            </a>
+        </div>
+        <div class="container-idioma">
+            <div class="logo-menu-idioma">
+                <i class="fa-solid fa-globe"></i>
+                <button class="btn-menu-idioma abrir" onclick="abrirMenuIdioma()"><i
+                        class="fa-solid fa-chevron-down"></i></button>
+                <button class="btn-menu-idioma fechar" onclick="fecharMenuIdioma()"><i
+                        class="fa-solid fa-chevron-up"></i></button>
+            </div>
+            <div class="menu-idioma">
+                <p>Escolha o idioma:</p>
+                <a href="" class="idioma pt-br">
+                    <img src="img/logo-menu-idioma-brasil.png" alt="" class="img-menu-idioma">
+                    Português
+                </a>
+                <a href="" class="idioma espanhol">
+                    <img src="img/logo-menu-idioma-espanha.webp" alt="" class="img-menu-idioma">
+                    Espanhol
+                </a>
+            </div>
+        </div>
+        <div class="logo-menu-responsivo">
+            <i class="fa-solid fa-bars" id="logo-menu-responsivo-abrir"></i>
+            <i class="fa-solid fa-xmark" id="logo-menu-responsivo-fechar"></i>
+        </div>
+        <div class="menu">
+            <a href="login.html" class="item-menu"><i class="fa-solid fa-right-to-bracket"></i>Login</a>
+            <a href="index.html" class="item-menu"><i class="fa-solid fa-house"></i>Início</a>
+            <a href="modulo.html" class="item-menu"><i class="fa-solid fa-graduation-cap"></i>Módulo</a>
+            <a href="sobre.html"><i class="fa-solid fa-circle-info"></i></i>Sobre</a>
+            <a href="usuario.html" class="item-menu"><i class="fa-solid fa-user"></i>Usuário</a>
+            <a href="contato.html" class="item-menu"><i class="fa-solid fa-phone"></i>Contato</a>
+        </div>
+    </header>
+    <main>
+        <!-- <div class="slider">
+            <div class="slides">
+                <img src="" alt="" class="img-slide">
+                <img src="" alt="" class="img-slide">
+                <img src="" alt="" class="img-slide">
+                <img src="" alt="" class="img-slide">
+            </div>
+        </div> -->
+        <div class="conteudo">
+            <div class="sobre-projeto">
+                <h2>Sobre o Projeto</h2><br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere exercitationem amet nemo aperiam
+                    culpa? Corporis doloremque repellat sed voluptatibus, quis eos accusantium ipsa enim tempore ratione
+                    vero hic illum expedita perferendis dolorum velit. Quibusdam voluptatibus, veniam eos asperiores
+                    aliquam ipsum fugit, explicabo, voluptatum nesciunt alias nemo quo ut! Sequi, esse harum officia
+                    libero quaerat quam impedit magni beatae praesentium, quidem dolore illum ipsa, quos fugiat. Officia
+                    iure placeat, ducimus qui sit sint pariatur nihil possimus ab nostrum id neque ex perspiciatis
+                    dolore laborum impedit inventore molestiae provident quos blanditiis asperiores architecto?
+                    Doloribus expedita quia dicta rem repudiandae laboriosam eius incidunt?</p>
+            </div>
+            <!-- <div class="tutorial-geral">
+                <h2>Tutorial Geral</h2>
+                <div class="video">
+                </div>
+                <div class="sobre-tutorial">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptatibus eveniet corrupti praesentium laboriosam quo eum id nulla vitae temporibus dolores ipsum facere animi tenetur assumenda officia suscipit, sed deserunt. Asperiores ipsum architecto quae tenetur dicta expedita iusto illum assumenda incidunt facere non neque et ex ipsam excepturi, commodi corrupti? Minima iure obcaecati, quaerat impedit hic fugit iusto, nam dignissimos alias necessitatibus, tenetur rem ducimus accusamus aut quia atque exercitationem fuga. Nam sit magni delectus eum maxime ut cumque ipsa pariatur mollitia, quia corporis vitae doloremque unde perferendis dolores facilis inventore odit recusandae iure, eaque earum! Obcaecati dolore ipsum sint?</p>
+                </div>-->
+            <div class="sobre-integrantes">
+                <h2>Sobre os integrantes</h2><br>
+                <div class="integrante-container">
+                    <div class="integrante">
+                        <img src="img/foto-perfil-exemplo.jpeg" alt="" class="perfil-integrante">
+                        <h3>Emanuel</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet itaque amet vel animi quasi
+                            doloribus, deserunt exercitationem similique error consequuntur?</p>
+                    </div>
+                    <div class="integrante">
+                        <img src="img/foto-perfil-exemplo.jpeg" alt="" class="perfil-integrante">
+                        <h3>Felipe Moreno</h3>
+                        <p>Ducimus totam facilis aperiam ex, odit mollitia hic praesentium, placeat est velit voluptatem
+                            possimus, unde sapiente voluptates cumque non omnis.</p>
+                    </div>
+                    <div class="integrante">
+                        <img src="img/foto-perfil-exemplo.jpeg" alt="" class="perfil-integrante">
+                        <h3>Milene</h3>
+                        <p>Eaque accusamus dolor, quidem earum magnam repudiandae dolore nesciunt consequuntur cum
+                            voluptates, inventore dignissimos ducimus, magni culpa. Nemo, incidunt recusandae?</p>
+                    </div>
+                    <div class="integrante">
+                        <img src="img/foto-perfil-exemplo.jpeg" alt="" class="perfil-integrante">
+                        <h3>Ricardo
+                        </h3>
+                        <p>Mollitia, eum. Quod sit ducimus recusandae perspiciatis natus consequuntur fugit tempora,
+                            nulla, optio error dolorum. Explicabo rem nihil dolor recusandae!</p>
+                    </div>
+                    <div class="integrante">
+                        <img src="img/foto-perfil-exemplo.jpeg" alt="" class="perfil-integrante">
+                        <h3>Viviane</h3>
+                        <p>Velit dolorum maiores et consequatur, quasi dolores culpa? Laudantium deleniti laboriosam
+                            natus sit consequatur repellendus quibusdam doloribus labore numquam unde?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright &#169; 2024 Educahost. All Rights Reserved</p>
+
+        <div class="footer-contato">
+            <a href="contato.html">
+                <i class="fa-regular fa-envelope"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
