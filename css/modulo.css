@@ -19,10 +19,6 @@ main{
     align-items: center;
 }
 
-.container-modulo{
-    gap: 20px;
-}
-
 .container-atividade{
     display: none;
 }
