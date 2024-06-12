@@ -17,7 +17,8 @@
     <header>
         <div class="logo">
             <a href="index.html">
-                <img src="img/logo.png" alt="">
+                <img src="img/logo.png" alt="" class="img-logo">
+                <img src="img/logo-abreviada.png" class="img-logo-abreviada" alt="">
             </a>
         </div>
         <div class="container-idioma">
@@ -55,7 +56,7 @@
         <div class="container-modulo">
             <button class="btn-modulo-passar esquerda" onclick="passarEsquerda()"><i class="fa-solid fa-chevron-left"></i></i></button>
             <button class="btn-modulo-passar direita" onclick="passarDireita()"><i class="fa-solid fa-chevron-right"></i></button>
-            <div class="modulo-responsivo">
+            <div class="modulo-responsivo primeiro">
                 <div class="modulo">
                     <h1>Iniciante</h1>
                     <div class="img-modulo" id="img-modulo-iniciante"></div>
@@ -86,7 +87,7 @@
                 <div class="atividade-elemento">
                     <div class="atividade-titulo">
                         <h2>Atividade 1</h2>
-                        <button class="btn-atividade-mais" onclick="irJogo()">
+                        <button class="btn-atividade-mais" onclick="irAtividade1()">
                             <i class="fa-solid fa-arrow-right-long"></i>
                         </button>
                     </div>
@@ -94,7 +95,7 @@
                 <div class="atividade-elemento">
                     <div class="atividade-titulo">
                         <h2>Atividade 2</h2>
-                        <button class="btn-atividade-mais">
+                        <button class="btn-atividade-mais" onclick="irAtividade2()">
                             <i class="fa-solid fa-arrow-right-long"></i>
                         </button>
                     </div>
@@ -102,7 +103,7 @@
                 <div class="atividade-elemento">
                     <div class="atividade-titulo">
                         <h2>Atividade 3</h2>
-                        <button class="btn-atividade-mais">
+                        <button class="btn-atividade-mais" onclick="irAtividade3()">
                             <i class="fa-solid fa-arrow-right-long"></i>
                         </button>
                     </div>
@@ -110,7 +111,7 @@
                 <div class="atividade-elemento">
                     <div class="atividade-titulo">
                         <h2>Atividade 4</h2>
-                        <button class="btn-atividade-mais">
+                        <button class="btn-atividade-mais" onclick="irAtividade4()">
                             <i class="fa-solid fa-arrow-right-long"></i>
                         </button>
                     </div>

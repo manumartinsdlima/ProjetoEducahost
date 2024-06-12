@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/usuario.css">
+
+    <script defer src="js/menu-responsivo.js"></script>
+    <script defer src="js/menu-idioma.js"></script>
+
+    <title>Educahost | Usuário</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo.png" alt="" class="img-logo">
+                <img src="img/logo-abreviada.png" class="img-logo-abreviada" alt="">
+            </a>
+        </div>
+        <div class="container-idioma">
+            <div class="logo-menu-idioma">
+                <i class="fa-solid fa-globe"></i>
+                <button class="btn-menu-idioma" onclick="abrirMenuIdioma()"><i class="fa-solid fa-chevron-down"></i></button>
+            </div>
+            <div class="menu-idioma">
+                <p>Escolha o idioma:</p>
+                <a href="" class="idioma pt-br">
+                    <img src="img/logo-menu-idioma-brasil.png" alt="" class="img-menu-idioma">
+                    Português
+                </a>
+                <a href="" class="idioma espanhol">
+                    <img src="img/logo-menu-idioma-espanha.webp" alt="" class="img-menu-idioma">
+                    Espanhol
+                </a>
+                <button class="btn-menu-idioma" onclick="fecharMenuIdioma()"><i class="fa-solid fa-chevron-up"></i></button>
+            </div>
+        </div>
+        <div class="logo-menu-responsivo">
+            <i class="fa-solid fa-bars" id="logo-menu-responsivo-abrir"></i>
+            <i class="fa-solid fa-xmark" id="logo-menu-responsivo-fechar"></i>
+        </div>
+        <div class="menu">
+            <a href="login.html" class="item-menu"><i class="fa-solid fa-right-to-bracket"></i>Login</a>
+            <a href="index.html" class="item-menu"><i class="fa-solid fa-house"></i>Início</a>
+            <a href="modulo.html" class="item-menu"><i class="fa-solid fa-graduation-cap"></i>Módulo</a>
+            <a href="tutorial.html"><i class="fa-solid fa-book-open"></i>Tutorial</a>
+            <a href="usuario.html" class="item-menu"><i class="fa-solid fa-user"></i>Usuário</a>
+            <a href="contato.html" class="item-menu"><i class="fa-solid fa-phone"></i>Contato</a>
+        </div>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+        <p>Copyright &#169; 2024 Educahost. All Rights Reserved</p>
+
+        <div class="footer-contato">
+            <a href="contato.html">
+                <i class="fa-regular fa-envelope"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
