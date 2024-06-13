@@ -1,5 +1,91 @@
-main{
-    height: 100vh;
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Patrick+Hand&family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
+:root {
+    --verde-claro: #EEFBF2;
+    --verde-intermediario: #BEE1C9;
+    --verde-escuro:  #298447;
+}
+
+body{
+    background-color: var(--verde-intermediario);
+    width: 100%;
+    height: 100%;
+}
+
+/*Alteracoes (milene)*/
+
+main {
+    width: 100vw;
+    flex-wrap: wrap;
+}
+/*primeira div (bem vindo)*/
+
+.bem_vindo{
+    height: 100%;
+    width: 100%;
+}
+
+#img_bem_vindo{
+    width: 100vw;
     display: flex;
+}
+
+#texto_bem_vindo{
+    width: 65vw;
+}
+
+#texto_capa{
+    width: 100vw;
+    display: flex;
+   
+}
+
+#capa{
+    width: 100vw;
+    text-align: center;
+    margin-top: -28vw;
+}
+
+/*segunda div*/
+
+.segunda_div{
+    display: flex;
+    width: 100vw;
+    height: 100%;
+    justify-content: space-around;
+    padding: 3vw;
+    margin-top: 18vw;
+}
+
+#segunda_div_img{
+    height: 25vw;
+    object-fit: cover;
+    margin-top: 2vw;
+}
+
+#segunda_div_texto{
+    height: 50%;
+}
+#segunda_div_texto_titulo{
+    margin-top: -1vw;
+    width: 40vw;
+}
+
+#segunda_div_texto_normal{
+    font-size: 2.5vw;
+    margin-top: 1.8vw;
+    color: #073114;
+    width: 90%;
+    font-family: "Patrick Hand", cursive;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 90%;
+}
+
+
+/*footer*/
+
+footer{
+    width: 100vw;
+    background-color: var(--verde-claro);
 }
