@@ -6,7 +6,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/usuario.css">
+    <link rel="stylesheet" href="css/atividade.css">
 
     <script defer src="js/menu-responsivo.js"></script>
     <script defer src="js/menu-idioma.js"></script>
@@ -53,7 +53,21 @@
         </div>
     </header>
     <main>
-
+        <div class="container-questionario">
+            <h1>Questionário</h1>
+            <div class="questionario">
+                <h2 id="questao">
+                    Questão
+                </h2>
+                <div id="container-alternativa">
+                    <button class="btn-alternativa">Alternativa 1</button>
+                    <button class="btn-alternativa">Alternativa 2</button>
+                    <button class="btn-alternativa">Alternativa 3</button>
+                    <button class="btn-alternativa">Alternativa 4</button>
+                </div>
+                <button id="btn-proxima-questao" value="Próximo">Próximo<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
     </main>
     <footer>
         <p>Copyright &#169; 2024 Educahost. All Rights Reserved</p>
@@ -64,5 +78,6 @@
             </a>
         </div>
     </footer>
+    <script defer src="js/questionario.js"></script>
 </body>
 </html>

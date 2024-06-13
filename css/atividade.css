@@ -3,3 +3,85 @@ main{
 
     display: flex;
 }
+
+.container-questionario{
+    height: fit-content;
+    width: 90%;
+    max-width: 600px;
+
+    margin: auto auto;
+    padding: 30px;
+
+    background-color: #bbb;
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.container-questionario h1{
+    margin: 0 0 10px;
+    padding: 0 0 10px;
+
+    border-bottom: solid #000; 
+}
+
+
+#container-alternativa{
+    margin: 10px 0 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn-alternativa{
+    padding: 15px 10px;
+
+    border: none;
+    border-radius: 6px;
+    text-align: left;
+    transition: 0.2s;
+}
+
+.btn-alternativa:hover:not([disabled]){
+    background-color: #7a7a7a;
+    cursor: pointer;
+}
+
+#btn-proxima-questao{
+    min-width: fit-content;
+
+    margin: 10px auto 0;
+    padding: 15px;
+
+    border: none;
+    border-radius: 6px;
+    transition: 0.2s;
+
+    display: flex;
+}
+
+#btn-proxima-questao:hover{
+    background-color: #7a7a7a;
+    cursor: pointer;
+}
+
+#btn-proxima-questao i{
+    margin: 2px 0 0 10px;
+}
+
+#btn-proxima-questao:hover i{
+    color: #fff;
+    transform: translate(5px);
+}
+
+.correto{
+    background-color: #a1fc95;
+    color: #000;
+}
+
+.incorreto{
+    background-color: #fc9595;
+    color: #000;
+}

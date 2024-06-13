@@ -228,7 +228,7 @@ header{
     margin-right: 10px;
 }
 
-@media(max-width: 875px){  
+@media(max-width: 930px){  
 
     .img-logo{
         display: none;
