@@ -11,7 +11,7 @@ main{
 
     margin: 0 auto;
 
-    background-color: #bbb;
+    background-color: #fffef5;
     overflow-x: hidden;
 
     display: flex;
@@ -42,7 +42,7 @@ main{
 }
 
 .btn-modulo-passar:hover{
-    color: #a9e94d;
+    color: #7d7df7;
     cursor: pointer;
 }
 
@@ -81,6 +81,7 @@ main{
     
     background-color: #fff;
     border-radius: 12px;
+    color: #298447;
     
     display: flex;
     flex-direction: column;
@@ -125,7 +126,7 @@ main{
     margin: 20px 0;
     padding: 15px;
 
-    background-color: #a9e94d;
+    background-color: #6ab484;
     border: 0;
     border-radius: 12px;
     transition: 0.3s;
@@ -209,7 +210,7 @@ main{
 }
 
 .atividade-titulo i:hover{
-    color: #a9e94d;
+    color: #6ab484;
     transform: translate(5px);
 }
 
