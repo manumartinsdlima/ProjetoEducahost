@@ -59,27 +59,65 @@ main {
 
 #segunda_div_img{
     height: 25vw;
-    object-fit: cover;
-    margin-top: 2vw;
 }
 
 #segunda_div_texto{
     height: 50%;
+    margin-top: -1vw;
 }
 #segunda_div_texto_titulo{
-    margin-top: -1vw;
     width: 40vw;
 }
 
-#segunda_div_texto_normal{
+.segunda_div_texto_normal{
     font-size: 2.5vw;
-    margin-top: 1.8vw;
+    margin-top: 2vw;
     color: #073114;
     width: 90%;
     font-family: "Patrick Hand", cursive;
     font-weight: 500;
     font-style: normal;
-    line-height: 90%;
+    line-height: 95%;
+}
+
+/*terceira div*/
+
+#terceira_div{
+    position: relative;
+    display: flex;
+}
+
+#terceira_div_fundo{
+    width: 100vw;
+}
+
+#terceira_div_itens{
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    margin-top: 9%;
+    justify-content: space-around;
+    padding: 3vw;
+}
+
+#terceira_div_texto_titulo{
+    width: 50vw;
+}
+
+#terceira_div_texto{
+    margin-left: 8vw;
+    padding: 2vw;
+}
+
+#terceira_div_texto_normal{
+    color: #99792F;
+    line-height: 120%;
+}
+
+#terceira_div_img{
+    height: 30vw;
+    margin-top: -5vw;
+    margin-left: 2vw;
 }
 
 
