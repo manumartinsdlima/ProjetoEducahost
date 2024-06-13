@@ -86,6 +86,10 @@ header{
     object-fit: contain;
 }
 
+.idioma.espanhol .img-menu-idioma{
+    margin: 0.2px 0 0;
+}
+
 .btn-menu-idioma{
     width: 40px;
 
@@ -124,16 +128,14 @@ header{
     clip-path: inset(0 0 100% 0);
     transition: 0.3s;
     z-index: 3;
-
-    flex-direction: column;
 }
 
 .menu-idioma.ativo{
     clip-path: inset(0 0 0 0);
 }
 
-.menu-idioma p{
-    margin: 0 0 5px 0;
+.menu-idioma .idioma{
+    margin: 10px 0 0;
 }
 
 .menu-idioma .btn-menu-idioma{
