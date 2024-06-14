@@ -3,6 +3,7 @@
 
 main{
     background-color: #EEFBF2;
+    justify-content: center;
 }
 
 .slider{
@@ -81,7 +82,6 @@ main{
 
 #sobre{
     color: #298653;
-    margin-top: -4vw;
     font-size: 4vh;
 }
 
@@ -92,12 +92,12 @@ main{
 #img_sobre{
     width: 30vw;
     margin-right: 30px;
-    margin-top: 10px;
+    margin-top: 17px;
     transform: scaleX(-1);
 }
 
 #descricao_sobre{
-    margin-top: 20px;
+    margin-top: -6vw;
     display: flex;
     align-items: flex-start;
 
