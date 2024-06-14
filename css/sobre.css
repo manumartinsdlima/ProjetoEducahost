@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Patrick+Hand&family=Rajdhani:wght@300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 main{
     background-color: #EEFBF2;
@@ -71,13 +71,19 @@ main{
 }
 
 .texto{
-    font-family: "Patrick Hand", cursive;
     font-weight: 500;
     font-style: normal;
     text-indent: 3em;
+    line-height: 150%;
+    font-family: "Quicksand", sans-serif;
+    color: #131d18;
 }
 
 #sobre{
     color: #298653;
     margin-top: -4vw;
+}
+
+.sobre-projeto{
+    padding: 3vw;
 }
