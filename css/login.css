@@ -3,6 +3,7 @@ main{
 
     display: flex;
     flex-direction: column;
+    background-color: #EEFBF2;
 }
 
 .container-login{
@@ -13,8 +14,9 @@ main{
 
     margin-left: auto;
     margin-right: auto;
+ 
 
-    background-color: #a9e94d; 
+    background-color: #4fa98d; 
     border-radius: 12px;
 
     display: flex;
@@ -37,7 +39,7 @@ main{
 .container-input-login, .container-input-cadastro{
     min-height: fit-content;
 
-    background-color: #f1f0f0;
+    background-color: #ffffff;
     border-radius: 0 12px 12px 0;
 
     flex: 1;
@@ -79,7 +81,7 @@ main{
 }
 
 .icones-redes-sociais i:hover{
-    color: #a9e94d;
+    color: #01ae52;
     cursor: pointer;
 }
 

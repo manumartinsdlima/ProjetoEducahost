@@ -1,5 +1,189 @@
-main{
-    height: 100vh;
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Patrick+Hand&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+:root {
+    --verde-claro: #EEFBF2;
+    --verde-intermediario: #BEE1C9;
+    --verde-escuro:  #298447;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+/*Alteracoes (milene)*/
+
+main {
+    width: 100vw;
+
+    flex-wrap: wrap;
+    background-color: var(--verde-intermediario);
+}
+/*primeira div (bem vindo)*/
+
+.bem_vindo{
+    height: 100%;
+    width: 100%;
+}
+
+#img_bem_vindo{
+    width: 100vw;
     display: flex;
+}
+
+#texto_bem_vindo{
+    width: 60vw;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5.5vw;
+    color: var(--verde-escuro);
+
+}
+
+#texto_capa{
+    width: 100vw;
+    display: flex;
+   
+}
+
+#capa{
+    width: 100vw;
+    text-align: center;
+    margin-top: -29vw;
+    display: flex;
+    justify-content: center;
+}
+
+/*segunda div*/
+
+.segunda_div{
+    display: flex;
+    width: 100vw;
+    height: 100%;
+    justify-content: space-around;
+    padding: 3vw;
+    margin-top: 20vw;
+}
+
+#segunda_div_img{
+    height: 20vw;
+    margin-right: 5vw;
+    margin-top: -3vw;
+}
+
+#segunda_div_texto{
+    height: 50%;
+    margin-top: -1vw;
+}
+
+#segunda_div_texto_titulo{
+    width: 60vw;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4.8vw;
+    color: var(--verde-escuro);
+    margin-top: -2vw;
+    margin-bottom: 3vw;
+}
+
+.segunda_div_texto_normal{
+    font-size: 2.5vw;
+    margin-top: 1.5vw;
+    color: #073114;
+    width: 90%;
+    font-family: "Patrick Hand", cursive;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 95%;
+}
+
+/*terceira div*/
+
+#terceira_div{
+    position: relative;
+    display: flex;
+    margin-top: 3vw;
+}
+
+#terceira_div_fundo{
+    width: 100vw;
+}
+
+#terceira_div_itens{
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    margin-top: 9%;
+    justify-content: space-around;
+    padding: 3vw;
+}
+
+#terceira_div_texto_titulo{
+    width: 50vw;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4.8vw;
+    color: #F4C247;
+    margin-bottom: 2vw;
+}
+
+#terceira_div_texto{
+    margin-left: 8vw;
+    padding: 2vw;
+}
+
+#terceira_div_texto_normal{
+    color: #99792F;
+    line-height: 120%;
+}
+
+#terceira_div_img{
+    width: 18vw;
+    margin-top: -2vw;
+    margin-left: 2vw;
+}
+
+/*quarta div*/
+
+#quarta_div{
+    width: 100vw;
+    height: 35vw;
+    text-align: center;
+    background-color: var(--verde-intermediario);
+}
+
+#faca_cadastro{
+    width: 90vw;
+    margin-top: 3vw;
+}
+
+#botao{
+    margin-top:2vw;
+    width: 20vw;
+    height: 9vw;
+    border: none;
+    font-size: 4vw;
+    border-radius: 3px;
+    background-color: #6ab484;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+}
+
+#botao:hover{
+    background-color: #7d7df7;
+    cursor: pointer;
+}
+
+
+/*footer*/
+
+footer{
+    display: flex;
+    width: 100vw;
+    background-color: #EEFBF2;
 }
