@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Patrick+Hand&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root {
     --verde-claro: #EEFBF2;
@@ -32,7 +33,13 @@ main {
 }
 
 #texto_bem_vindo{
-    width: 65vw;
+    width: 60vw;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5.5vw;
+    color: var(--verde-escuro);
+
 }
 
 #texto_capa{
@@ -44,7 +51,9 @@ main {
 #capa{
     width: 100vw;
     text-align: center;
-    margin-top: -28vw;
+    margin-top: -29vw;
+    display: flex;
+    justify-content: center;
 }
 
 /*segunda div*/
@@ -55,12 +64,13 @@ main {
     height: 100%;
     justify-content: space-around;
     padding: 3vw;
-    margin-top: 18vw;
+    margin-top: 20vw;
 }
 
 #segunda_div_img{
     height: 20vw;
     margin-right: 5vw;
+    margin-top: -3vw;
 }
 
 #segunda_div_texto{
@@ -69,14 +79,19 @@ main {
 }
 
 #segunda_div_texto_titulo{
-    width: 40vw;
-    margin-left: 6vw;
+    width: 60vw;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4.8vw;
+    color: var(--verde-escuro);
     margin-top: -2vw;
+    margin-bottom: 3vw;
 }
 
 .segunda_div_texto_normal{
     font-size: 2.5vw;
-    margin-top: 2vw;
+    margin-top: 1.5vw;
     color: #073114;
     width: 90%;
     font-family: "Patrick Hand", cursive;
@@ -108,6 +123,12 @@ main {
 
 #terceira_div_texto_titulo{
     width: 50vw;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4.8vw;
+    color: #F4C247;
+    margin-bottom: 2vw;
 }
 
 #terceira_div_texto{
