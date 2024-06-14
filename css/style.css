@@ -110,7 +110,7 @@ header{
 }
 
 .btn-menu-idioma:hover i{
-    color: #a9e94d;
+    color: #6ab484;
 }
 
 .btn-menu-idioma.fechar{
@@ -350,5 +350,5 @@ footer p{
 }
 
 .footer-contato i:hover{
-    color: #a9e94d;
+    color: #6ab484;
 }

@@ -151,13 +151,32 @@ main {
 
 #quarta_div{
     width: 100vw;
-    height: 15vw;
+    height: 35vw;
     text-align: center;
+    background-color: var(--verde-intermediario);
 }
 
 #faca_cadastro{
     width: 90vw;
     margin-top: 3vw;
+}
+
+#botao{
+    margin-top:2vw;
+    width: 20vw;
+    height: 9vw;
+    border: none;
+    font-size: 4vw;
+    border-radius: 3px;
+    background-color: #6ab484;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+}
+
+#botao:hover{
+    background-color: #7d7df7;
+    cursor: pointer;
 }
 
 
@@ -166,6 +185,5 @@ main {
 footer{
     display: flex;
     width: 100vw;
-    background-color: var(--verde-claro);
-    margin-top: 11vw;
+    background-color: #EEFBF2;
 }
