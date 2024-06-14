@@ -33,19 +33,4 @@ for(let i = 0; i < emojis.length ; i++){
     document.querySelector(".container-box").appendChild(box)
 }
 
-// const caixa = document.querySelector(".box")
-
-// const caixaLargura = caixa.getBoundingClientRect().width
-
-// console.log(caixaLargura)
-// caixa.style.height = caixaLargura
-
-// window.addEventListener("resize", () => {
-//     const caixaLargura = caixa.getBoundingClientRect().width
-//     const caixaAltura = caixa.getBoundingClientRect().height
-
-//     console.log(caixaLargura, caixaAltura)
-//     caixa.style.height = "caixaLargura"
-//     console.log(caixaLargura, caixaAltura)
-// })
 
