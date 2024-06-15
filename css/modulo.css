@@ -1,4 +1,6 @@
 main{
+    position: relative;
+
     height: 100vh;
 
     display: flex;
@@ -144,7 +146,11 @@ main{
 }
 
 .btn-atividade-voltar{
-    margin: 20px 0 0 20px;
+    position: absolute;
+    top: 4%;
+    left: 10%;
+
+    margin: 0;
     padding: 10px;
 
     background-color: #00000000;

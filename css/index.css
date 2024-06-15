@@ -167,11 +167,12 @@ main {
     height: 9vw;
     border: none;
     font-size: 4vw;
-    border-radius: 3px;
+    border-radius: 6px;
     background-color: #6ab484;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     letter-spacing: 0.2rem;
+    transition: background-color 0.3s;
 }
 
 #botao:hover{
