@@ -100,5 +100,9 @@ main{
     margin-top: -6vw;
     display: flex;
     align-items: flex-start;
+}
 
+#sobre_integrantes{
+    font-size: 4vh;
+    color: #298653;
 }
