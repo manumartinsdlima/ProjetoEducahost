@@ -223,6 +223,8 @@ main{
 
 @media (max-width: 770px){
     .container-modulo{
+        padding: 0;
+
         gap: 0;
     }
 

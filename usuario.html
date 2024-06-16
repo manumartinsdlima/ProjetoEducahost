@@ -53,7 +53,216 @@
         </div>
     </header>
     <main>
-
+        <div class="container-usuario">
+            <div class="container-perfil">
+                <div class="container-img-perfil">
+                    <h2 class="titulo-informativo">Usuário</h2>
+                    <div class="container-container-img-perfil">
+                        <img src="img/img-user.svg" alt="" class="img-perfil">
+                    </div>
+                </div>
+                <div class="container-btn-perfil">
+                    <button class="btn dado" onclick="mostrarContainerDados()">Dados</button>
+                    <button class="btn progresso" onclick="mostrarContainerProgresso()">Progresso</button>
+                </div>
+            </div>
+            <div class="container-informacao">
+                <button class="btn-voltar-usuario" onclick="voltarUsuario()">Voltar</button>
+                <h2>Dados</h2>
+                <div class="container-input">
+                    <label for="input-nome">Nome</label>
+                    <input type="text" name="nome_usuario" class="dado-usuario" id="input-nome" disabled>
+                    <label for="input-email">Email</label>
+                    <input type="text" name="email_usuario" class="dado-usuario" id="input-email">
+                    <label for="input-bio">Bio</label>
+                    <textarea name="bio_usuario" class="dado-usuario" id="input-bio" ></textarea>
+                    <button class="btn-editar-dados" onclick="editarDados()">Editar dados</button>
+                </div>   
+            </div>
+            <div class="container-progresso">
+                <button class="btn-voltar-usuario" onclick="voltarUsuario()">Voltar</button>
+                <h2>Progresso</h2>
+                <div class="container-modulo">
+                    <button class="modulo""><h3>Módulo Iniciante</h3><i class="fa-solid fa-chevron-down" id="icone-abrir"></i><i class="fa-solid fa-chevron-up" id="icone-fechar"></i></button>
+                    <div class="container-atividade">
+                        <div class="atividade">
+                            <div class="titulo-atividade">
+                                <h4>Atividade 1</h4>
+                                <button class="btn-ir-atividade" onclick="window.location = 'atividade1.html'"><i class="fa-solid fa-arrow-right-long"></i></button>
+                            </div>
+                            <div class="pontuacao-atividade">
+                                <h4>Pontuação</h4>
+                                <div class="pontos">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="atividade">
+                            <div class="titulo-atividade">
+                                <h4>Atividade 2</h4>
+                                <button class="btn-ir-atividade" onclick="window.location = 'atividade2.html'"><i class="fa-solid fa-arrow-right-long"></i></button>
+                            </div>
+                            <div class="pontuacao-atividade">
+                                <h4>Pontuação</h4>
+                                <div class="pontos">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="atividade">
+                            <div class="titulo-atividade">
+                                <h4>Atividade 3</h4>
+                                <button class="btn-ir-atividade" onclick="window.location = 'atividade3.html'"><i class="fa-solid fa-arrow-right-long"></i></button>
+                            </div>
+                            <div class="pontuacao-atividade">
+                                <h4>Pontuação</h4>
+                                <div class="pontos">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="atividade">
+                            <div class="titulo-atividade">
+                                <h4>Atividade 4</h4>
+                                <button class="btn-ir-atividade" onclick="window.location = 'atividade4.html'"><i class="fa-solid fa-arrow-right-long"></i></button>
+                            </div>
+                            <div class="pontuacao-atividade">
+                                <h4>Pontuação</h4>
+                                <div class="pontos">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="modulo""><h3>Módulo Intermediário</h3><i class="fa-solid fa-chevron-down" id="icone-abrir"></i><i class="fa-solid fa-chevron-up" id="icone-fechar"></i></button>
+                    <div class="container-atividade">
+                        <div class="atividade">
+                            <div class="titulo-atividade">
+                                <h4>Atividade 1</h4>
+                                <button class="btn-ir-atividade" onclick="window.location = 'atividade1.html'"><i class="fa-solid fa-arrow-right-long"></i></button>
+                            </div>
+                            <div class="pontuacao-atividade">
+                                <h4>Pontuação</h4>
+                                <div class="pontos">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="atividade">
+                            <div class="titulo-atividade">
+                                <h4>Atividade 2</h4>
+                                <button class="btn-ir-atividade" onclick="window.location = 'atividade2.html'"><i class="fa-solid fa-arrow-right-long"></i></button>
+                            </div>
+                            <div class="pontuacao-atividade">
+                                <h4>Pontuação</h4>
+                                <div class="pontos">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="atividade">
+                            <div class="titulo-atividade">
+                                <h4>Atividade 3</h4>
+                                <button class="btn-ir-atividade" onclick="window.location = 'atividade3.html'"><i class="fa-solid fa-arrow-right-long"></i></button>
+                            </div>
+                            <div class="pontuacao-atividade">
+                                <h4>Pontuação</h4>
+                                <div class="pontos">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="atividade">
+                            <div class="titulo-atividade">
+                                <h4>Atividade 4</h4>
+                                <button class="btn-ir-atividade" onclick="window.location = 'atividade4.html'"><i class="fa-solid fa-arrow-right-long"></i></button>
+                            </div>
+                            <div class="pontuacao-atividade">
+                                <h4>Pontuação</h4>
+                                <div class="pontos">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="modulo""><h3>Módulo Avançado</h3><i class="fa-solid fa-chevron-down" id="icone-abrir"></i><i class="fa-solid fa-chevron-up" id="icone-fechar"></i></button>
+                    <div class="container-atividade">
+                        <div class="atividade">
+                            <div class="titulo-atividade">
+                                <h4>Atividade 1</h4>
+                                <button class="btn-ir-atividade" onclick="window.location = 'atividade1.html'"><i class="fa-solid fa-arrow-right-long"></i></button>
+                            </div>
+                            <div class="pontuacao-atividade">
+                                <h4>Pontuação</h4>
+                                <div class="pontos">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="atividade">
+                            <div class="titulo-atividade">
+                                <h4>Atividade 2</h4>
+                                <button class="btn-ir-atividade" onclick="window.location = 'atividade2.html'"><i class="fa-solid fa-arrow-right-long"></i></button>
+                            </div>
+                            <div class="pontuacao-atividade">
+                                <h4>Pontuação</h4>
+                                <div class="pontos">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="atividade">
+                            <div class="titulo-atividade">
+                                <h4>Atividade 3</h4>
+                                <button class="btn-ir-atividade" onclick="window.location = 'atividade3.html'"><i class="fa-solid fa-arrow-right-long"></i></button>
+                            </div>
+                            <div class="pontuacao-atividade">
+                                <h4>Pontuação</h4>
+                                <div class="pontos">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="atividade">
+                            <div class="titulo-atividade">
+                                <h4>Atividade 4</h4>
+                                <button class="btn-ir-atividade" onclick="window.location = 'atividade4.html'"><i class="fa-solid fa-arrow-right-long"></i></button>
+                            </div>
+                            <div class="pontuacao-atividade">
+                                <h4>Pontuação</h4>
+                                <div class="pontos">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <p>Copyright &#169; 2024 Educahost. All Rights Reserved</p>
@@ -64,5 +273,6 @@
             </a>
         </div>
     </footer>
+    <script async src="js/usuario.js"></script>
 </body>
 </html>

@@ -1,6 +1,265 @@
 main{
     height: 100vh;
 
-    display: flex;
     background-color: #EEFBF2;
+
+    display: flex;
+    justify-content: center;
+}
+
+.container-usuario{
+    min-height: 100%;
+    height: fit-content;
+    width: 80%;
+    max-width: 600px;
+
+    margin: 20px 0;
+
+    background-color: #fff;
+    border-radius: 12px;
+
+    display: flex;
+}
+
+.container-perfil{
+    width: 40%;
+
+    padding: 10px 0 0;
+
+    border: 1px solid #000;
+    border-radius: 12px 0 0 12px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container-img-perfil{
+    text-align: center;
+
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.container-container-img-perfil{
+    height: 100px;
+    width: 100px;
+
+    margin: 0 0 10px;
+
+    border: 1px solid #000;
+    border-radius: 50%;
+
+    align-content: center;
+}
+
+.img-perfil{
+    height: 60px;
+}
+
+.container-btn-perfil{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    width: 100%;
+
+    padding: 25px 0;
+
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.4s;
+}
+
+.btn:hover{
+    background-color: #48ff7f;
+    color: #fff;
+}
+
+.container-informacao, .container-progresso{
+    position: relative;
+
+    width: 60%;
+
+    padding: 10px 0;
+
+    border: 1px solid #000;
+    border-radius: 0 12px 12px 0;
+
+    display: none;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.container-progresso{
+    display: flex;
+}
+
+.btn-voltar-usuario{
+    position: absolute;
+    top: 0px;
+
+    padding: 15px 25px;
+
+    border: none;
+    border-radius: 12px 6px 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    display: none;
+}
+
+.btn-voltar-usuario:hover{
+    background-color: #48ff7f;
+}
+
+.container-informacao h2, .container-progresso h2{
+    text-align: center;
+}
+
+.container-input{
+    margin: 20px 0 0;
+    padding: 0 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.dado-usuario{
+    padding: 5px;
+
+    background-color: #EEFBF2;
+    border: none;
+}
+
+#input-bio{
+    min-width: 100%;
+    width: 100%;
+    height: 100px;
+    max-height: 100px;
+    max-width: 400px;
+}
+
+.container-modulo{
+    max-height: 60%;
+
+    margin: 15px 0 0;
+    padding: 0 20px;
+    overflow-y: scroll;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.modulo{
+    margin: 15px 0 0;
+    padding: 15px 20px;
+
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.modulo:hover{
+    background-color: #48ff7f;
+}
+
+.modulo i{
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.modulo:hover i{
+    color: #fff;
+}
+
+#icone-fechar{
+    display: none;
+}
+
+.container-atividade{
+    /* position: absolute; */
+
+    height: 0px;
+
+    background-color: #EEFBF2;
+    border-radius: 0 0 6px 6px;
+    clip-path: inset(0 0 100% 0);
+    transition: ease-in-out .6s;
+}
+
+.container-atividade.aberto{
+    height: fit-content;
+
+    clip-path: inset(0 0 0 0);
+}
+
+
+
+.atividade{
+    padding: 10px 15px;
+}
+
+.atividade:nth-child(2n + 2){
+    background-color: #f0f0f0;
+}
+
+.atividade:last-child{
+    border-radius: 0 0 6px 6px;
+}
+
+.titulo-atividade, .pontuacao-atividade{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo-atividade{
+    padding: 0 0 10px;
+}
+
+.titulo-atividade button{
+    width: 60px;
+
+    background-color: #00000000;
+    border: none;
+    cursor: pointer;
+}
+
+.titulo-atividade i{
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.titulo-atividade button:hover i{
+    color: #48ff7f;
+    transform: translateX(5px)
+}
+
+
+@media (max-width: 500px){
+    .container-perfil, .container-informacao, .container-progresso{
+        border-radius: 12px;
+    }
+
+    .container-perfil{
+        width: 100%;
+    }
+
+    .container-informacao, .container-progresso{
+        display: none;
+    }
+
+    .btn-voltar-usuario{
+        display: flex;
+    }
 }

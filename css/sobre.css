@@ -3,7 +3,7 @@
 
 main{
     background-color: #EEFBF2;
-    justify-content: center;
+    display: flex;
 }
 
 .slider{
@@ -87,6 +87,8 @@ main{
 
 .sobre-projeto{
     padding: 3vw;
+
+    align-self: center;
 }
 
 #img_sobre{
@@ -105,4 +107,17 @@ main{
 #sobre_integrantes{
     font-size: 4vh;
     color: #298653;
+}
+
+@media (max-width: 500px){
+    #descricao_sobre{
+        flex-direction: column;
+    }
+
+    #img_sobre{
+        height: 200px;
+        width: 200px;
+
+        align-self: center;
+    }
 }
