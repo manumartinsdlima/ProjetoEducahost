@@ -157,3 +157,13 @@ main{
         border-radius: 12px;
     }
 }
+
+#email, #senha{
+    border-radius: 0px;
+    border-bottom: solid 1px #000;
+}
+
+#titulo{
+    color: #298447;
+
+}

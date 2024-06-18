@@ -157,8 +157,15 @@ main {
 }
 
 #faca_cadastro{
-    width: 90vw;
+    width: 100vw;
     margin-top: 3vw;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4.8vw;
+    color: #298447;
+    letter-spacing: 1px;
+    margin-bottom: 3vw;
 }
 
 #botao{

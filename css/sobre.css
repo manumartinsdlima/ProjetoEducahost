@@ -69,6 +69,8 @@ main{
     background-color: #000;
     border-radius: 50%;
     object-fit: contain;
+    background-size: cover;
+
 }
 
 .texto{
