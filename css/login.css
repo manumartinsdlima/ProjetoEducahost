@@ -63,6 +63,8 @@ main{
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+
+    color: #298447;
 }
 
 .icones-redes-sociais{
@@ -101,6 +103,8 @@ main{
 }
 
 .input-elemento{
+    margin: 0 0 10px;
+
     display: flex;
     flex-direction: column;
 }
@@ -110,19 +114,22 @@ main{
 }
 
 .input, .input-btn{
-    margin-top: 5px;
+    margin: 5px 0 0;
     padding: 5px;
 
     border: none;
-    border-radius: 6px;
-
     outline: none;
+}
+
+.input{
+    border-bottom: 1px solid #000;
 }
 
 .input-btn{
     padding: 10px;
 
     background-color: #000;
+    border-radius: 6px;
     color: #fff;
     cursor: pointer;
     transition: 0.3s;
@@ -156,14 +163,4 @@ main{
     .container-input-login, .container-input-cadastro{
         border-radius: 12px;
     }
-}
-
-#email, #senha{
-    border-radius: 0px;
-    border-bottom: solid 1px #000;
-}
-
-#titulo{
-    color: #298447;
-
 }
